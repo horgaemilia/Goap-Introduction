@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{93779AF9-61C2-7CB9-D60F-E3782F2A4DBC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WorldStates.cs">
+    <Files>
+      <File FileName="Assets/Scripts/WorldStates.cs" Line="46" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Goap Introduction" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="WorldStates.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db2e58a5-e52f-4f7e-bac8-28b5980756e1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
