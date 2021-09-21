@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class State
+public class WorldState
 {
     public string key;
     public int value;
@@ -59,5 +59,10 @@ public class WorldStates
         {
             states.Add(key, value);
         }
+    }
+
+    public Dictionary<string, int> GetStates()
+    {
+        return states;
     }
 }
