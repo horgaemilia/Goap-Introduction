@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{93779AF9-61C2-7CB9-D60F-E3782F2A4DBC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GAction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GPlanner.cs">
     <Files>
-      <File FileName="Assets/Scripts/WorldStates.cs" Line="22" Column="40" />
+      <File FileName="Assets/Scripts/WorldStates.cs" Line="20" Column="37" />
       <File FileName="Assets/Scripts/GWorld.cs" Line="28" Column="22" />
-      <File FileName="Assets/Scripts/GAction.cs" Line="4" Column="22" />
+      <File FileName="Assets/Scripts/GAction.cs" Line="5" Column="16" />
+      <File FileName="Assets/Scripts/GAgent.cs" Line="40" Column="14" />
+      <File FileName="Assets/Scripts/GPlanner.cs" Line="5" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +13,7 @@
           <Node name="Goap Introduction" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GAction.cs" selected="True" />
+                <Node name="GPlanner.cs" selected="True" />
               </Node>
             </Node>
           </Node>

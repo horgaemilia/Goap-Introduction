@@ -57,6 +57,7 @@
     <Compile Include="Assets/Scripts/GAction.cs" />
     <Compile Include="Assets/Scripts/GWorld.cs" />
     <Compile Include="Assets/Scripts/WorldStates.cs" />
+    <Compile Include="Assets/Scripts/GPlanner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
