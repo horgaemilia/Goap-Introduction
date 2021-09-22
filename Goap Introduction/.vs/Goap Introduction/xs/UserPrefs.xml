@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{93779AF9-61C2-7CB9-D60F-E3782F2A4DBC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Register.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UpdateWorld.cs">
     <Files>
       <File FileName="Assets/Scripts/WorldStates.cs" Line="20" Column="37" />
       <File FileName="Assets/Scripts/GWorld.cs" Line="18" Column="19" />
@@ -8,19 +8,18 @@
       <File FileName="Assets/Scripts/GPlanner.cs" Line="137" Column="2" />
       <File FileName="Assets/Scripts/Patient.cs" Line="11" Column="56" />
       <File FileName="Assets/Scripts/GoToHospital.cs" Line="9" Column="21" />
-      <File FileName="Assets/Scripts/GoToWaitingRoom.cs" Line="5" Column="29" />
-      <File FileName="Assets/Scripts/Register.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/GoToWaitingRoom.cs" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/Register.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/Spawn.cs" Line="7" Column="37" />
+      <File FileName="Assets/AgentVisualiser/GAgentEditor.cs" Line="46" Column="2" />
+      <File FileName="Assets/Scripts/Nurse.cs" Line="11" Column="47" />
+      <File FileName="Assets/Scripts/GetPatient.cs" Line="5" Column="24" />
+      <File FileName="Assets/Scripts/UpdateWorld.cs" Line="4" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Goap Introduction" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Register.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Goap Introduction" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

@@ -62,6 +62,11 @@
     <Compile Include="Assets/Scripts/GoToHospital.cs" />
     <Compile Include="Assets/Scripts/GoToWaitingRoom.cs" />
     <Compile Include="Assets/Scripts/Register.cs" />
+    <Compile Include="Assets/Scripts/Spawn.cs" />
+    <Compile Include="Assets/AgentVisualiser/GAgentVisual.cs" />
+    <Compile Include="Assets/Scripts/Nurse.cs" />
+    <Compile Include="Assets/Scripts/GetPatient.cs" />
+    <Compile Include="Assets/Scripts/UpdateWorld.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
