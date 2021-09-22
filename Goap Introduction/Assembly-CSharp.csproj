@@ -53,11 +53,15 @@
     <UnityVersion>2020.3.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/GAgent.cs" />
-    <Compile Include="Assets/Scripts/GAction.cs" />
-    <Compile Include="Assets/Scripts/GWorld.cs" />
-    <Compile Include="Assets/Scripts/WorldStates.cs" />
-    <Compile Include="Assets/Scripts/GPlanner.cs" />
+    <Compile Include="Assets/Scripts/GOAP/GAgent.cs" />
+    <Compile Include="Assets/Scripts/GOAP/GAction.cs" />
+    <Compile Include="Assets/Scripts/GOAP/GWorld.cs" />
+    <Compile Include="Assets/Scripts/GOAP/WorldStates.cs" />
+    <Compile Include="Assets/Scripts/GOAP/GPlanner.cs" />
+    <Compile Include="Assets/Scripts/Patient.cs" />
+    <Compile Include="Assets/Scripts/GoToHospital.cs" />
+    <Compile Include="Assets/Scripts/GoToWaitingRoom.cs" />
+    <Compile Include="Assets/Scripts/Register.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
