@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{E51E0E4A-A286-662B-4243-FD3CC3FB4490}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GOAP/GWorld.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GetPatient.cs" Line="27" Column="27" />
+      <File FileName="Assets/Scripts/GOAP/GWorld.cs" Line="37" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GoapTeacherProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GOAP" expanded="True" />
+                <Node name="GetPatient.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="db2e58a5-e52f-4f7e-bac8-28b5980756e1" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
