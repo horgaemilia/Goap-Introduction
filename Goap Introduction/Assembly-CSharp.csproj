@@ -67,6 +67,9 @@
     <Compile Include="Assets/Scripts/Nurse.cs" />
     <Compile Include="Assets/Scripts/GetPatient.cs" />
     <Compile Include="Assets/Scripts/UpdateWorld.cs" />
+    <Compile Include="Assets/Scripts/GOAP/GInventory.cs" />
+    <Compile Include="Assets/Scripts/GetTreated.cs" />
+    <Compile Include="Assets/Scripts/Treat.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1878,6 +1878,7 @@ GameObject:
   - component: {fileID: 3466433431950392815}
   - component: {fileID: 3466433431950392814}
   - component: {fileID: 3241677399201782188}
+  - component: {fileID: 1969796976687422798}
   m_Layer: 0
   m_Name: Patient
   m_TagString: Untagged
@@ -1944,9 +1945,6 @@ MonoBehaviour:
   - key: hasArrived
     value: 1
   agent: {fileID: 0}
-  agentBeliefs:
-    key: 
-    value: 0
   running: 0
 --- !u!114 &3466433431950392813
 MonoBehaviour:
@@ -1986,9 +1984,6 @@ MonoBehaviour:
   - key: isWaiting
     value: 0
   agent: {fileID: 0}
-  agentBeliefs:
-    key: 
-    value: 0
   running: 0
 --- !u!114 &3466433431950392814
 MonoBehaviour:
@@ -2014,9 +2009,6 @@ MonoBehaviour:
   - key: hasRegistered
     value: 0
   agent: {fileID: 0}
-  agentBeliefs:
-    key: 
-    value: 0
   running: 0
 --- !u!114 &3241677399201782188
 MonoBehaviour:
@@ -2031,6 +2023,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisAgent: {fileID: 3466433431950392813}
+--- !u!114 &1969796976687422798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735963376468381685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1260995f08eab4728824167bb6923b14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Action
+  cost: 1
+  target: {fileID: 0}
+  targetTag: 
+  duration: 0
+  preConditions:
+  - key: atHospital
+    value: 0
+  afterEffects:
+  - key: isTreated
+    value: 0
+  agent: {fileID: 0}
+  running: 0
 --- !u!1 &6780184313744075358
 GameObject:
   m_ObjectHideFlags: 0

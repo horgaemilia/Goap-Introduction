@@ -26,6 +26,9 @@ public class GAgent : MonoBehaviour
     public GAction currentAction;
     SubGoal currentGoal;
 
+    public GInventory inventory = new GInventory();
+    public WorldStates beliefs = new WorldStates();
+
     // Start is called before the first frame update
     protected void Start()
     {
@@ -66,7 +69,7 @@ public class GAgent : MonoBehaviour
             var sortedGoals = from entry in goals orderby entry.Value descending select entry;
             foreach(KeyValuePair<SubGoal, int> sub in sortedGoals)
             {
-                actionQueue = planner.Plan(actions, sub.Key.goals, null);
+                actionQueue = planner.Plan(actions, sub.Key.goals, beliefs);
                 if(actionQueue!= null)
                 {
                     currentGoal = sub.Key;

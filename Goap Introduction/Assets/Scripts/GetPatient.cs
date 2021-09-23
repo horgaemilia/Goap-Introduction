@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class GetPatient : GAction
 {
+    GameObject resource;
     public override bool PostPerform()
     {
+        GWorld.Instance.GetWorld().ModifyState("patientWaiting", -1);
+        if(target)
+        {
+            target.GetComponent<GAgent>().inventory.AddItem(resource);
+        }
         return true;
     }
 
@@ -14,7 +20,18 @@ public class GetPatient : GAction
         target = GWorld.Instance.RemovePatient();
         if (target == null)
             return false;
-
+        resource = GWorld.Instance.UseCubicle();
+        if (resource != null)
+        {
+            inventory.AddItem(resource);
+        }
+        else
+        {
+            GWorld.Instance.AddPatient(target);
+            target = null;
+            return false;
+        }
+        GWorld.Instance.GetWorld().ModifyState("Free Cubicle", -1);
         return true;
     }
 }
